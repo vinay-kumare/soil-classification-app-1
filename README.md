@@ -22,16 +22,20 @@ Place it in the `backend/` directory before running the Flask server.
 ## Setup & Installation  
 
 ### 🔹 Backend (Flask)  
+```sh
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 The Flask server will run on http://127.0.0.1:5000/.
 
-### 🔹 Frontend (React)  
+### 🔹 Frontend (React)
+```sh  
 cd frontend
 npm install
 cd prediction
 npm run dev
+```
 The frontend will run on http://localhost:5173/.
 
 
